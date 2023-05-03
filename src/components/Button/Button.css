@@ -1,0 +1,35 @@
+.button_refresh{
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 10px;
+    margin-bottom: 20px; 
+}
+
+.button_refresh:hover{
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 768px){
+    .button_refresh{
+        font-size: 25px;
+        border-radius: 50%; 
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    .button_refresh{
+    font-size: 20px;
+    border-radius: 50%; 
+    }
+}

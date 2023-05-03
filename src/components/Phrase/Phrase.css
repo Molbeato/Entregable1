@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+.phrase_container {
+    min-width: 280px;
+    max-width: 500px;
+    padding: 60px 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  white;
+    border-radius: 39px;
+    font-family: 'Kanit';
+    font-size: 20px;
+    box-shadow: 3px 3px 15px -2px #585353;
+    background-image: linear-gradient(to bottom, rgba(70, 67, 67, 0.61), rgba(235, 226, 226, 0.486))
+}
+
+@media screen and (max-width: 768px){
+    .phrase_container {
+         width: 340px;
+         height: 120px;
+         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .phrase_container {
+        width: 220px;
+        height: 100px;
+        font-size: 16px;
+   }
+}

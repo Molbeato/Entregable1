@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+.container_app{
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle{
+  font-family: 'Kanit';
+  text-shadow: 2px 2px #131212b7;  
+}
+
+.author{
+  font-family: 'Kanit';
+  text-shadow: 2px 2px #131212;
+}
+
+@media screen and (max-width: 992px){
+  .container_app{
+    width: 100vw;
+    height: 1078px;
+  }
+
+  .author{
+    font-size: 30px;
+  }
+
+  .tittle{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container_app{
+    width: 100vw;
+    height: 1078px;
+  }
+
+  .tittle{
+    font-size: 45px;
+  }
+
+  .author{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .container_app{
+    width: 100vw;
+    height: 1078px;
+  }
+
+  .author{
+    font-size: 20px;
+  }
+
+  .tittle{
+    font-size: 40px;
+  }
+
+}
+
+
+
